@@ -1,0 +1,30 @@
+{
+    "presets": [
+        [
+            "env",
+            {
+                "modules": false,
+                "targets": {
+                    "node": "6.10"
+                }
+            }
+        ]
+    ],
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "root": ".",
+                "alias": {
+                    "@": ".",
+                    "@Logger": "./utils/logger",
+                    "@Config": "./config"
+                },
+                "extensions": [
+                    ".js",
+                    ".json"
+                ]
+            }
+        ]
+    ]
+}

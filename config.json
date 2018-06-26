@@ -1,0 +1,17 @@
+{
+    "server": {
+        "name": "DevServer",
+        "port": 3001
+    },
+    "mongo": {
+        "host": "localhost",
+        "port": 27017,
+        "db": "databaseNameHere",
+        "username": "",
+        "password": ""
+    },
+    "authentication": {
+        "enabled": true,
+        "JWTSecret": "JWTSecretHere"
+    }
+}
